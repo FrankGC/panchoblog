@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/FrankGC/panchoblog/issues"
   },
-  "homepage": "https://github.com/FrankGC/panchoblog#readme"
+  "homepage": "https://github.com/FrankGC/panchoblog#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
