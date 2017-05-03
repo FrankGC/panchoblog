@@ -19,7 +19,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def updateus
+  def show
+  end
+
+  def update
     if User.update(user_params)
       flash[:success] = "User was successfully updated"
       redirect_to articles_path
