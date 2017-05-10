@@ -4,8 +4,13 @@
     <div class='panel panel-danger'>
       <div class='panel-heading'>
         <h2 class='panel-title'>
-          <%= pluralize(obj.errors.count,'error') %>
-          prohibited the article form being saved:
+          <% if obj.class.to_s == 'Article' %>
+            <%= pluralize(obj.errors.count,'error') %>
+            prohibited the article form being saved:
+          <% else %>
+            <%= pluralize(obj.errors.count,'error') %>
+            prohibited the user form being created:
+          <% end %>
         </h2>
         <div class='panel-body'>
           <ul>
