@@ -85,3 +85,21 @@ footer ul {
   list-style: none;
   padding-left: 0;
 }
+
+.badge{
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input{
+  width: auto !important;
+}
+
+#trap{
+    background-color:#eff0f2;
+}
+
+#trap:hover{
+  text-decoration: none;
+}
